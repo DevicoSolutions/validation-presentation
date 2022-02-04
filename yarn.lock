@@ -512,6 +512,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@validation/cl-val@workspace:packages/class-validator":
+  version: 0.0.0-use.local
+  resolution: "@validation/cl-val@workspace:packages/class-validator"
+  dependencies:
+    "@hookform/resolvers": ^2.8.8
+    "@types/react": ^17.0.33
+    "@types/react-dom": ^17.0.10
+    "@validation/ui": "workspace:*"
+    "@vitejs/plugin-react": ^1.0.7
+    autoprefixer: ^10.4.2
+    class-transformer: ^0.5.1
+    class-validator: ^0.13.2
+    postcss: ^8.4.6
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    react-hook-form: ^7.25.3
+    stail: ^0.4.2
+    tailwindcss: ^3.0.18
+    typescript: ^4.4.4
+    vite: ^2.7.2
+    yup: ^0.32.11
+  languageName: unknown
+  linkType: soft
+
 "@validation/joi@workspace:packages/joi":
   version: 0.0.0-use.local
   resolution: "@validation/joi@workspace:packages/joi"
@@ -865,6 +889,23 @@ __metadata:
   version: 2.0.0
   resolution: "chownr@npm:2.0.0"
   checksum: c57cf9dd0791e2f18a5ee9c1a299ae6e801ff58fee96dc8bfd0dcb4738a6ce58dd252a3605b1c93c6418fe4f9d5093b28ffbf4d66648cb2a9c67eaef9679be2f
+  languageName: node
+  linkType: hard
+
+"class-transformer@npm:^0.5.1":
+  version: 0.5.1
+  resolution: "class-transformer@npm:0.5.1"
+  checksum: f191c8b4cc4239990f5efdd790cabdd852c243ed66248e39f6616a349c910c6eed2d9fd1fbf7ee6ea89f69b4f1d0b493b27347fe0cd0ae26b47c3745a805b6d3
+  languageName: node
+  linkType: hard
+
+"class-validator@npm:^0.13.2":
+  version: 0.13.2
+  resolution: "class-validator@npm:0.13.2"
+  dependencies:
+    libphonenumber-js: ^1.9.43
+    validator: ^13.7.0
+  checksum: 0deb4c29faa18345f6989fd7eaaaa07b05caae5298603fcd6485531c6daad503e5d2b24cc1342e4fc88ae5ba0acffdc24d0fc333110ef3f21a667cd8a79e1258
   languageName: node
   linkType: hard
 
@@ -1690,6 +1731,13 @@ __metadata:
   bin:
     json5: lib/cli.js
   checksum: e88fc5274bb58fc99547baa777886b069d2dd96d9cfc4490b305fd16d711dabd5979e35a4f90873cefbeb552e216b041a304fe56702bedba76e19bc7845f208d
+  languageName: node
+  linkType: hard
+
+"libphonenumber-js@npm:^1.9.43":
+  version: 1.9.47
+  resolution: "libphonenumber-js@npm:1.9.47"
+  checksum: 4e0f260c7468d158946ef2ad8ea2fe518e8d92db955c488e642e4e18ac3c428041daec2efead8f138e91adfe3486113f1eabfca0e2fe98a92d917444a5c87457
   languageName: node
   linkType: hard
 
@@ -2655,6 +2703,13 @@ __metadata:
     typescript: ^4.5.5
   languageName: unknown
   linkType: soft
+
+"validator@npm:^13.7.0":
+  version: 13.7.0
+  resolution: "validator@npm:13.7.0"
+  checksum: 2b83283de1222ca549a7ef57f46e8d49c6669213348db78b7045bce36a3b5843ff1e9f709ebf74574e06223461ee1f264f8cc9a26a0060a79a27de079d8286ef
+  languageName: node
+  linkType: hard
 
 "vite@npm:^2.7.2":
   version: 2.7.13
