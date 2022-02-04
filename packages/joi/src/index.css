@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: hsl(216, 11%, 35%);
+}
+
+html,
+body,
+#root {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.glass {
+  box-shadow: 0 0 0 1px rgb(255 255 255 / var(--glass-border-opacity, 10%))
+      inset,
+    0 0 0 2px rgb(0 0 0/5%);
+  text-shadow: 0 1px rgb(0 0 0 / var(--glass-text-shadow-opacity, 5%));
+  background-image: linear-gradient(
+    135deg,
+    rgb(255 255 255 / var(--glass-opacity, 30%)),
+    rgb(0 0 0/0)
+  );
+}
+
+.glass-dark {
+  box-shadow: 0 0 0 1px rgb(255 255 255 / var(--glass-border-opacity, 10%))
+      inset,
+    0 0 0 2px rgb(0 0 0/5%);
+  text-shadow: 0 1px rgb(255 255 255 / var(--glass-text-shadow-opacity, 5%));
+  background-image: linear-gradient(
+    320deg,
+    rgb(0 0 0 / var(--glass-opacity, 20%)),
+    rgb(255 255 255/0.05)
+  );
+}
